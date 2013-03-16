@@ -13,10 +13,19 @@ gem 'rspec-rails'
 gem 'decent_exposure'
 gem 'httpclient'
 
-gem 'pry-rails'
-
 gem 'nokogiri'
 gem 'yajl-ruby'
+
+gem 'unicorn'
+
+group :production do
+  gem 'rack-timeout'
+end
+
+group :development do
+  gem 'pry-rails'
+  gem 'pry-debugger'
+end
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
