@@ -20,6 +20,9 @@ gem 'unicorn'
 
 gem 'pg'
 
+gem 'rpm_contrib'
+gem 'newrelic_rpm'
+
 group :production do
   gem 'rack-timeout'
 end
