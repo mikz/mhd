@@ -7,8 +7,6 @@ gem 'rails', '3.2.12'
 
 gem 'rails-api'
 
-gem 'sqlite3'
-
 gem 'rspec-rails'
 gem 'decent_exposure'
 gem 'httpclient'
@@ -17,6 +15,8 @@ gem 'nokogiri'
 gem 'yajl-ruby'
 
 gem 'unicorn'
+
+gem 'pg'
 
 group :production do
   gem 'rack-timeout'
