@@ -23,6 +23,8 @@ gem 'pg'
 gem 'rpm_contrib'
 gem 'newrelic_rpm'
 
+gem 'librato-rails'
+
 group :production do
   gem 'rack-timeout'
 end
