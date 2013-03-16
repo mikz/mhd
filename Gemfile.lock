@@ -46,6 +46,7 @@ GEM
     method_source (0.8.1)
     mime-types (1.21)
     multi_json (1.6.1)
+    nokogiri (1.5.6)
     polyglot (0.3.3)
     pry (0.9.12)
       coderay (~> 1.0.5)
@@ -106,6 +107,7 @@ GEM
       polyglot
       polyglot (>= 0.3.1)
     tzinfo (0.3.37)
+    yajl-ruby (1.1.0)
 
 PLATFORMS
   ruby
@@ -113,8 +115,10 @@ PLATFORMS
 DEPENDENCIES
   decent_exposure
   httpclient
+  nokogiri
   pry-rails
   rails (= 3.2.12)
   rails-api
   rspec-rails
   sqlite3
+  yajl-ruby

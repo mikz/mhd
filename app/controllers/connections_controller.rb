@@ -1,8 +1,7 @@
 class ConnectionsController < ApplicationController
-
+  expose(:connection) { Connection.find(params) }
 
   def index
-    render text: Connection.find(params)
+    respond_with connection
   end
-
 end
